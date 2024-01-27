@@ -14,6 +14,7 @@ ENV SOCKET_IO_PORT=1555
 ENV NODE_VERSION=node_20.x
 ENV NODE_KEYRING=/usr/share/keyrings/nodesource.gpg
 ENV DISTRIBUTION=bookworm
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 
 # Install Node.js
 RUN apt-get update && \
